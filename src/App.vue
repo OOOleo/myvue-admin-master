@@ -1,11 +1,5 @@
 <template>
-  <div>
-    <router-link to="/">首页</router-link> |
-    <router-link to="/login">登录界面</router-link>
-  </div>
-  <div class="rview">
-    <router-view/>
-  </div>
+  <router-view/>
 </template>
 
 <script>
@@ -17,15 +11,8 @@ export default {
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-.rview{
-  margin-top: 50px;
+html,body,#app{
+  height: 100%;
+  margin-top: 0px;
 }
 </style>
